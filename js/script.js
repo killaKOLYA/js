@@ -40,6 +40,9 @@ for (let i = 0; i<2; i++) {
     let filmName = prompt('Один из последних просмотренных фильмов?', ''),
         filmRating = prompt('На сколько оцените его', '');
     personalMovieDB.movies[filmName] = filmRating;
+
+    //personalMovieDB.movies[prompt('Один из последних просмотренных фильмов?', '')] = prompt('На сколько оцените его?', '');
+
 }
 
 console.log(personalMovieDB);
