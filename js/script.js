@@ -11,9 +11,9 @@ const personalMovieDB = {
     privat: false
 };
 
-// detectPersonalLevel();
-// remembermyFilms();
-// writeYourGenres(personalMovieDB.genres);
+detectPersonalLevel();
+remembermyFilms();
+writeYourGenres(personalMovieDB.genres);
 showMyDB(personalMovieDB.privat);
 
 
@@ -97,5 +97,3 @@ function writeYourGenres(genres) {
         } while(genre == null || genre == '');
     }
 }
-
-// console.log(personalMovieDB);
